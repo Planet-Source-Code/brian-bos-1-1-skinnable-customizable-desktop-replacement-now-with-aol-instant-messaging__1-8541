@@ -1,0 +1,14 @@
+When BoS is installed, the standard windows taskbar, start menu, and desktop icons don't show up; insted, they are replaced with
+BoS's desktop icons, start menu, and taskbar.
+Here's how to install BoS:
+- Compile the project into B.exe 
+- Go to Start > Run
+- Type in "C:\windows\system.ini" and press enter 
+- Find the section that says "shell=explorer.exe".
+- Change it to "shell=<< FULL Path to B.exe >>". 
+  IMPORTANT NOTE: The path to BoS must conform to the 8.3 naming scheme. If you don't know what the 8.3 naming scheme is, just install
+  BoS in C:\bos
+- Reboot your computer 
+If, for any reason, you make a spelling mistake and BoS doesn't come up, press Control-Escape - from there just follow instructions 2-6
+ 
+Begone, evil Windows desktop icons and start menu! Hello, BoS
